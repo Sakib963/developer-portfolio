@@ -184,7 +184,7 @@ section{
 }
 
 /* Contact Styles */
-.contact{
+/* .contact{
     display: flex;
     gap: 100px;
     background: #FFF8F3;
@@ -205,5 +205,33 @@ input{
     height: 64px;
 }
 .contact a{
+    text-decoration: none;
+} */
+
+footer{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+footer .section-title{
+    text-align: left;
+}
+
+footer input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 5px 18px;
+}
+footer .section-description{
+    text-align: left;
+}
+input{
+    height: 64px;
+}
+footer a{
     text-decoration: none;
 }
